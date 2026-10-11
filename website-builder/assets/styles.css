@@ -1,0 +1,125 @@
+/* A simple, conversation-first interface based on the original project. */
+[data-testid="stApp"] {
+  background: #fff;
+  color: #20252b;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+[data-testid="stApp"] h1,
+[data-testid="stApp"] p,
+[data-testid="stApp"] button {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+[data-testid="stHeader"] { background: transparent; }
+[data-testid="stToolbar"] { visibility: hidden; }
+[data-testid="stMainBlockContainer"] {
+  max-width: 800px;
+  padding: 4rem 2rem 3rem;
+}
+
+[data-testid="stApp"] h1 {
+  margin-bottom: 1.2rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 650;
+  letter-spacing: -0.6px;
+}
+
+/* Leave the same open space above the two rows of page buttons. */
+.st-key-page-picker { margin-top: clamp(70px, 23vh, 210px); }
+.st-key-page-picker [data-testid="stHorizontalBlock"] {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.st-key-page-picker [data-testid="stColumn"] { width: 100%; min-width: 0; }
+.st-key-page-picker [data-testid="stButton"] button {
+  width: 100%;
+  min-height: 42px;
+  border: 1px solid #e4e6eb;
+  border-radius: 8px;
+  background: #fff;
+  color: #30363c;
+  box-shadow: 0 2px 5px #20252b06;
+}
+.st-key-page-picker [data-testid="stButton"] button p {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.st-key-page-picker [data-testid="stButton"] button:hover {
+  border-color: #007bff;
+  background: #f4f9ff;
+  color: #0065d1;
+}
+
+/* Avatars sit outside the bubbles, with user replies aligned to the right. */
+[data-testid="stChatMessage"] {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 3px 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+[data-testid="stChatMessage"] > img { margin-top: 7px; }
+[data-testid="stChatMessageContent"] {
+  /* Streamlit sets margin:auto here, which separates bubbles from their avatars. */
+  margin: 0;
+  flex: 0 1 auto;
+  width: fit-content;
+  min-width: 0;
+  max-width: 78%;
+  padding: 11px 15px;
+  border-radius: 12px 12px 12px 4px;
+  background: #f1f2f5;
+  color: #252a32;
+}
+[class*="st-key-chat-user-"] [data-testid="stChatMessage"] {
+  flex-direction: row-reverse;
+}
+[class*="st-key-chat-user-"] [data-testid="stChatMessageContent"] {
+  max-width: 74%;
+  border-radius: 19px 19px 4px 19px;
+  background: linear-gradient(115deg, #00a6ed, #0076ff);
+  color: #fff;
+}
+[data-testid="stChatMessageContent"] [data-testid="stVerticalBlock"] { gap: 0; }
+[data-testid="stChatMessage"] [data-testid="stText"] {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.65;
+}
+[class*="st-key-chat-user-"] [data-testid="stText"],
+[class*="st-key-chat-user-"] [data-testid="stText"] * { color: #fff; }
+
+[data-testid="stChatInput"] {
+  border: 1px solid #e1e4eb;
+  border-radius: 9px;
+  background: #f3f4f7;
+}
+[data-testid="stChatInput"]:focus-within {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px #007bff0c;
+}
+[data-testid="stChatInput"] textarea { padding: 12px 14px; }
+[data-testid="stBottom"] { background: #fff; }
+[data-testid="stCaptionContainer"] { color: #737c89; }
+[data-testid="stButton"] button,
+[data-testid="stDownloadButton"] button { border-radius: 8px; }
+[data-testid="stAlert"],
+[data-testid="stExpander"] { border-radius: 10px; }
+
+@media (max-width: 600px) {
+  [data-testid="stMainBlockContainer"] { padding: 2.5rem 1rem 2rem; }
+  .st-key-page-picker { margin-top: 70px; }
+  .st-key-page-picker [data-testid="stHorizontalBlock"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  [data-testid="stChatMessageContent"] { max-width: 88%; padding: 10px 12px; }
+  [class*="st-key-chat-user-"] [data-testid="stChatMessageContent"] { max-width: 86%; }
+}

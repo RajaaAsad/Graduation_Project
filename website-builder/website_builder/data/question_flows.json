@@ -1,0 +1,1372 @@
+{
+  "signin": [
+    {
+      "dependencies": "always",
+      "question": "Would you like a solid color or an image for the background?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "color",
+        "image"
+      ]
+    },
+    {
+      "dependencies": "color",
+      "question": "Which background color would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "image",
+      "question": "What is the public HTTPS URL of the background image?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which fields should the sign-in form display, such as email and password?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like to include a logo?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "What is the public HTTPS URL of your logo?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the page title say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the title use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a text shadow on the title?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the title shadow use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the sign-in button say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the sign-in button use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the sign-in button have a border?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the button border use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the sign-in button have rounded corners or sharp edges?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "rounded corners",
+        "sharp edges"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Where should the sign-in button sit: centered, left, or right?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "centered",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Which font family would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which text style would you like: normal, bold, or italic?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "normal",
+        "bold",
+        "italic"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the design include a Forgot password link? This is a visual prototype.",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "How should buttons look on hover, such as a color change or a slight increase in size?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which background opacity would you like? A value of 100% is fully opaque.",
+      "model_type": "choice",
+      "candidate_labels": [
+        "10%",
+        "20%",
+        "30%",
+        "40%",
+        "50%",
+        "60%",
+        "70%",
+        "80%",
+        "90%",
+        "100%"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the design include a Remember me checkbox? This is a visual prototype.",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Are there any other design details you would like to include?",
+      "model_type": "text",
+      "candidate_labels": []
+    }
+  ],
+  "signup": [
+    {
+      "dependencies": "always",
+      "question": "Would you like a solid color or an image for the background?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "color",
+        "image"
+      ]
+    },
+    {
+      "dependencies": "color",
+      "question": "Which background color would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "image",
+      "question": "What is the public HTTPS URL of the background image?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which fields should the sign-up form display, such as name, email, and password?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like to include a logo?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "What is the public HTTPS URL of your logo?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the page title say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the title use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a text shadow on the title?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the title shadow use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the sign-up button say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the sign-up button use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the sign-up button have a border?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the button border use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the sign-up button have rounded corners or sharp edges?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "rounded corners",
+        "sharp edges"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Where should the sign-up button sit: centered, left, or right?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "centered",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Which font family would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which text style would you like: normal, bold, or italic?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "normal",
+        "bold",
+        "italic"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "How should buttons look on hover, such as a color change or a slight increase in size?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which background opacity would you like? A value of 100% is fully opaque.",
+      "model_type": "choice",
+      "candidate_labels": [
+        "10%",
+        "20%",
+        "30%",
+        "40%",
+        "50%",
+        "60%",
+        "70%",
+        "80%",
+        "90%",
+        "100%"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the design include a Remember me checkbox? This is a visual prototype.",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Are there any other design details you would like to include?",
+      "model_type": "text",
+      "candidate_labels": []
+    }
+  ],
+  "landing": [
+    {
+      "dependencies": "always",
+      "question": "What is the main goal of your landing page?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Who is your target audience?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the main heading say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the heading use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a text shadow on the heading?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the heading shadow use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the subheading say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a background image in the hero section?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "What is the public HTTPS URL of the hero image?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like to specify a color scheme?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which colors should the page use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the main call-to-action button say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the buttons use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the buttons have borders?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the button borders use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the buttons have rounded corners or sharp edges?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "rounded corners",
+        "sharp edges"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "How should buttons look on hover, such as a color change or a slight increase in size?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "How many products or services would you like to showcase?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "What are the names of the products or services?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What description should accompany each product or service?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like an image for each product or service?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "What are the public HTTPS image URLs, in the same order as your products or services?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which font family would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which text style would you like: normal, bold, or italic?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "normal",
+        "bold",
+        "italic"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Are there any other design details you would like to include?",
+      "model_type": "text",
+      "candidate_labels": []
+    }
+  ],
+  "event": [
+    {
+      "dependencies": "always",
+      "question": "What is the purpose of your event page?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the event heading say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the heading use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a text shadow on the heading?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the heading shadow use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "When does the event start? Include the date, time, and time zone.",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "When does the event end? Include the date, time, and time zone.",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Where will the event take place?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a featured image for the event?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "What is the public HTTPS URL of the event image?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "How would you describe the event in a short paragraph?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which organizer and venue details should appear? Include only information intended for publication.",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the main call-to-action button say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the buttons use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the buttons have borders?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the button borders use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the buttons have rounded corners or sharp edges?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "rounded corners",
+        "sharp edges"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "How should buttons look on hover, such as a color change or a slight increase in size?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which font family would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which text style would you like: normal, bold, or italic?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "normal",
+        "bold",
+        "italic"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Are there any other design details you would like to include?",
+      "model_type": "text",
+      "candidate_labels": []
+    }
+  ],
+  "soon": [
+    {
+      "dependencies": "always",
+      "question": "What message should visitors see on your coming soon page?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What is the name of your upcoming project?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the title use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a solid color or an image for the background?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "color",
+        "image"
+      ]
+    },
+    {
+      "dependencies": "color",
+      "question": "Which background color would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "image",
+      "question": "What is the public HTTPS URL of the background image?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What is the launch date and time? Include the time zone. Countdown text will be static.",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What tagline or slogan would you like to include?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a text shadow on the headings?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the heading shadows use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the notification button say, such as Notify me or Stay updated?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the notification button use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the notification button have a border?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the button border use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the notification button have rounded corners or sharp edges?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "rounded corners",
+        "sharp edges"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "How should buttons look on hover, such as a color change or a slight increase in size?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which font family would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which text style would you like: normal, bold, or italic?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "normal",
+        "bold",
+        "italic"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Are there any other design details you would like to include?",
+      "model_type": "text",
+      "candidate_labels": []
+    }
+  ],
+  "contact": [
+    {
+      "dependencies": "always",
+      "question": "What is the name of your business or organization?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a solid color or an image for the background?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "color",
+        "image"
+      ]
+    },
+    {
+      "dependencies": "color",
+      "question": "Which background color would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "image",
+      "question": "What is the public HTTPS URL of the background image?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which background opacity would you like? A value of 100% is fully opaque.",
+      "model_type": "choice",
+      "candidate_labels": [
+        "10%",
+        "20%",
+        "30%",
+        "40%",
+        "50%",
+        "60%",
+        "70%",
+        "80%",
+        "90%",
+        "100%"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the page title say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which fields should the contact form display, such as name, email, and message?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which checkboxes should the form display? These will be visual elements only.",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the contact button say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the contact button use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the contact button have a border?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the button border use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the contact button have rounded corners or sharp edges?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "rounded corners",
+        "sharp edges"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "How should buttons look on hover, such as a color change or a slight increase in size?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a text shadow on the headings?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the heading shadows use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which font family would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which text style would you like: normal, bold, or italic?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "normal",
+        "bold",
+        "italic"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Which public business address should appear, if any?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which public business phone number should appear, if any?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which public business email address should appear, if any?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Are there any other design details you would like to include?",
+      "model_type": "text",
+      "candidate_labels": []
+    }
+  ],
+  "blog": [
+    {
+      "dependencies": "always",
+      "question": "What is your blog about, and who is it for?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a background image in the heading section?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "What is the public HTTPS URL of the heading image?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the blog title say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What introductory description should appear?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "How many posts should the page display?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "What are the post titles, in order?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What description should accompany each post?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What are the public HTTPS image URLs for each post, in the same order?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the main call-to-action button say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the buttons use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "How should buttons look on hover, such as a color change or a slight increase in size?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the buttons have borders?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the button borders use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the buttons have rounded corners or sharp edges?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "rounded corners",
+        "sharp edges"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like to include a contact form?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which fields should the contact form display, such as name, email, and message?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Would you like a text shadow on the title?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the title shadow use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which font family would you like?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which text style would you like: normal, bold, or italic?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "normal",
+        "bold",
+        "italic"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "Are there any other design details you would like to include?",
+      "model_type": "text",
+      "candidate_labels": []
+    }
+  ],
+  "restaurant": [
+    {
+      "dependencies": "always",
+      "question": "What is the name of your restaurant?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What is the public HTTPS URL of the hero background image?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What is the public HTTPS URL of the restaurant logo?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the main heading say?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What short introduction would you like visitors to read?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What should the main call-to-action button say, such as Book a table?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which color should the buttons use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the buttons have borders?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "dependencies": "yes",
+      "question": "Which color should the button borders use?",
+      "model_type": "intent",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Should the buttons have rounded corners or sharp edges?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "rounded corners",
+        "sharp edges"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "How should buttons look on hover, such as a color change or a slight increase in size?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "How many special offers should the page display?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "What are the names of the special offers, in order?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What are the public HTTPS image URLs for the offers, in the same order?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What is the price and currency for each offer, in the same order?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "How many menu items should the page display?",
+      "model_type": "choice",
+      "candidate_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+      ]
+    },
+    {
+      "dependencies": "always",
+      "question": "What are the menu item names, in order?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What are the public HTTPS image URLs for the menu items, in the same order?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "What is the price and currency for each menu item, in the same order?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which public restaurant address should appear?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which public restaurant phone number should appear, if any?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Which public restaurant email address should appear, if any?",
+      "model_type": "text",
+      "candidate_labels": []
+    },
+    {
+      "dependencies": "always",
+      "question": "Are there any other design details you would like to include?",
+      "model_type": "text",
+      "candidate_labels": []
+    }
+  ]
+}
